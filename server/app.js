@@ -16,3 +16,4 @@ app.use("/", indexRouter);
 app.listen(SERVER_PORT, () => {
   console.log(`Server running @ http://localhost:${SERVER_PORT}/`);
 });
+module.exports = app;
